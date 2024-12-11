@@ -362,6 +362,11 @@ a{
     bottom: 42px;
     transition: var(--transition);
 }
+@media(max-width : 767px){
+    .landing .down{
+        bottom: 55px;
+    }
+}
 .landing .down:hover{
     color: var(--main-color-alter);
 }
